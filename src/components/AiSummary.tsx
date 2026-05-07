@@ -98,7 +98,7 @@ function AiSummary({ room, config, currentSelections, summaryItems, totalCost }:
   };
 
   return (
-    <article className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-700 dark:bg-slate-900 h-240">
+    <article className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-700 dark:bg-slate-900 min-h-240">
       <h2 className="text-xl font-semibold text-slate-900 dark:text-slate-100">4) Mock AI Summary</h2>
       <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
         <button
